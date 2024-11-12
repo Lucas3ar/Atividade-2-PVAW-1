@@ -1,0 +1,157 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 10px;
+}
+
+.textcenter {
+    text-align: center;
+}
+
+h1.title {
+    font-size: 1.5rem;
+    background-color: #013c29;
+    color: white;
+    margin: 20px 0;
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 10px 0;
+}
+
+ul li {
+    font-size: 1rem;
+    margin-bottom: 8px;
+}
+
+hr {
+    margin: 20px 0;
+    border: 1px solid #ddd;
+}
+
+figure {
+    margin: 20px auto;
+    max-width: 100%;
+}
+
+figcaption {
+    font-size: 0.875rem;
+    color: #777;
+    text-align: center;
+    margin-top: 8px;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+main {
+    padding: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 0.875rem;
+    margin-top: 10px;
+}
+
+footer address {
+    font-size: 0.875rem;
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+@media (min-width: 768px) {
+    h1.title {
+        font-size: 2rem;
+        background-color: #013c29;
+        color: white;
+        border-radius: 1cm;
+
+    }
+
+    p {
+        font-size: 1.125rem;
+    }
+
+    ul li {
+        font-size: 1.125rem;
+    }
+
+    .center {
+        display: flex;
+        justify-content: center;
+    }
+
+    .center figure {
+        max-width: 50%;
+    }
+
+    footer {
+        text-align: left;
+        padding: 30px;
+    }
+
+    footer address {
+        font-size: 1rem;
+    }
+
+    footer p {
+        font-size: 1rem;
+    }
+
+    .right {
+        text-align: right;
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    main {
+        max-width: 960px;
+        margin: 0 auto;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px;
+    }
+
+    footer address {
+        font-size: 1rem;
+    }
+
+    footer p, .right {
+        font-size: 1rem;
+    }
+}
